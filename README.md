@@ -4,12 +4,20 @@ _In this project a basic amazon reviews scraper and sentiment analysis prebuilt 
 
 ## Start 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Just clone the repository_
 
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
+```
+git clone https://github.com/danielp2797/Amazon-reviews-scrap-and-sentiment-analysis-with-IBM-Watson
+```
+then install requirements
+```
+pip install -r requirements.txt
+```
+and finally install src package from setup.py file in the project root directory
+```
+pip install -e .
+```
+### Pre-requisites 📋
 
 _Que cosas necesitas para instalar el software y como instalarlas_
 
